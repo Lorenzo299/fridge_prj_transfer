@@ -1,0 +1,25 @@
+.cardCustom{
+background-color: rgb(127, 238, 255);
+
+}
+
+.sfondo-custom-form{
+    border: 3px solid rgb(94, 188, 222);
+    border-radius: 10px;
+    padding: 15px;
+    background: radial-gradient(circle, rgb(177, 224, 231), rgb(127, 238, 255));
+}
+
+.btn-custom{
+    padding: 10px 5px;
+    background: radial-gradient(circle, rgb(49, 176, 196), rgb(47, 182, 203));
+    border: 3px solid rgb(57, 139, 194);
+    border-radius: 5px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: rgb(94, 188, 222);
+    font-size: large;
+}

@@ -21,7 +21,7 @@ import com.gdserv.fridge.services.ProductService;
 
 @RestController
 @RequestMapping("/api/products")
-public class ProductController {
+public class ProductRestController {
 
     @Autowired
     private ProductService productService;
