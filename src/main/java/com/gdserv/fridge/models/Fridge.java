@@ -26,10 +26,8 @@ public class Fridge {
     private String name;
 
     @OneToMany(mappedBy = "fridge", cascade = CascadeType.PERSIST)
-    @Column(name = "product_id")
-    @JsonIgnoreProperties("products")
-    private List<Product> products = new ArrayList<Product>();
-
+@JsonIgnoreProperties("fridge")
+private List<Product> products = new ArrayList<>();
     public Fridge() {
     }
 
